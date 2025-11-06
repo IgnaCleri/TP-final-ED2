@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Read(//c/Program Files/KiCad/9.0/share/kicad/symbols/**)",
+      "mcp__linear__list_projects",
+      "mcp__linear__get_project",
+      "mcp__linear__list_issues",
+      "WebSearch",
+      "WebFetch(domain:ww1.microchip.com)",
+      "WebFetch(domain:www.electronicshub.org)",
+      "WebFetch(domain:www.microchip.com)",
+      "WebFetch(domain:www.circuitstoday.com)",
+      "WebFetch(domain:www.allaboutcircuits.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
