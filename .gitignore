@@ -1,0 +1,159 @@
+# =====================================================================
+# .gitignore for TP Final ED2 - PIC16F887 Environmental Monitor
+# Excludes build artifacts, IDE files, and Claude local settings
+# =====================================================================
+
+# --------------------------------------------------------------------
+# Build and Compilation Artifacts
+# --------------------------------------------------------------------
+# Compiled output files
+*.hex
+*.obj
+*.lst
+*.map
+*.cof
+*.hxl
+*.rlf
+*.sym
+*.cod
+*.err
+
+# Build directories
+dist/
+build/
+out/
+Debug/
+Release/
+
+# --------------------------------------------------------------------
+# MPLAB and NetBeans Project Files
+# --------------------------------------------------------------------
+# NetBeans private configuration
+nbproject/private/
+nbproject/build/
+nbproject/configurations/
+
+# MPLAB specific files
+*.mcp
+*.mcw
+
+# --------------------------------------------------------------------
+# Proteus Files and Backups
+# --------------------------------------------------------------------
+# Automatic backups created by Proteus
+Project Backups/
+**/Project Backups/
+*.pdsprj.*.workspace
+*.DS_Store
+*.pdsprj.lck
+
+# Temporary Proteus files
+*.pdsprj.tmp
+*.pdsprj.autosave
+
+# --------------------------------------------------------------------
+# Claude Code Local Settings (KEEP LOCAL)
+# --------------------------------------------------------------------
+# Claude local configuration - should NOT be in version control
+.claude/settings.local.json
+
+# Claude skills directory - local customization
+.claude/skills/
+
+# Claude cache and temporary files
+.claude/cache/
+.claude/temp/
+
+# --------------------------------------------------------------------
+# IDE and Editor Files
+# --------------------------------------------------------------------
+# Editor temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# VS Code settings (optional - uncomment if you use VS Code)
+# .vscode/
+# *.code-workspace
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --------------------------------------------------------------------
+# Hardware Programming Files
+# --------------------------------------------------------------------
+# Pickit temporary files
+*.pic
+*.pgm
+
+# Programming session files
+*.session
+
+# --------------------------------------------------------------------
+# Documentation and Notes
+# --------------------------------------------------------------------
+# Private notes (optional - uncomment if you keep private notes)
+# notas_privadas.md
+# TODO_personal.txt
+
+# --------------------------------------------------------------------
+# Logs and Debug Files
+# --------------------------------------------------------------------
+*.log
+*.out
+*.trace
+
+# Debug files
+debug_*.txt
+simulation_*.log
+
+# --------------------------------------------------------------------
+# Archive and Compression Files
+# --------------------------------------------------------------------
+# Keep archives but exclude their extraction
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tgz
+
+# Extracted archive folders
+unzip_*/
+extracted_*/
+
+# --------------------------------------------------------------------
+# Specific to this Project
+# --------------------------------------------------------------------
+# Test output files
+test_output/
+simulation_results/
+
+# Calibration data
+calibration_*.txt
+sensor_data_*.csv
+
+# User configuration files
+config_local.json
+user_settings.txt
+
+# --------------------------------------------------------------------
+# Security and Credentials
+# --------------------------------------------------------------------
+# API keys and secrets
+*.key
+*.pem
+*.crt
+secrets_*.json
+
+# Encrypted files
+*.enc
+*.gpg
+
+# --------------------------------------------------------------------
+# End of .gitignore
+# =====================================================================
