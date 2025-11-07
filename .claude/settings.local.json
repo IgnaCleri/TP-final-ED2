@@ -15,7 +15,12 @@
       "Bash(find:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
-      "Bash(git show:*)"
+      "Bash(git show:*)",
+      "Skill(skill-developer)",
+      "Skill(xlsx)",
+      "Skill(pdf)",
+      "Bash(claude:*)",
+      "Skill(docx)"
     ],
     "deny": [],
     "ask": []
