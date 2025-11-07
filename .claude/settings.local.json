@@ -11,7 +11,9 @@
       "WebFetch(domain:www.electronicshub.org)",
       "WebFetch(domain:www.microchip.com)",
       "WebFetch(domain:www.circuitstoday.com)",
-      "WebFetch(domain:www.allaboutcircuits.com)"
+      "WebFetch(domain:www.allaboutcircuits.com)",
+      "Bash(find:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
